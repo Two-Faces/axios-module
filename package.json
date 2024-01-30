@@ -1,6 +1,6 @@
 {
-  "name": "@nuxtjs/axios",
-  "version": "5.13.6",
+  "name": "@nuxtjs-two-faces/axios",
+  "version": "6.0.0",
   "description": "Secure and easy Axios integration with Nuxt.js",
   "repository": "nuxt-community/axios-module",
   "license": "MIT",
@@ -21,20 +21,21 @@
   },
   "dependencies": {
     "@nuxtjs/proxy": "^2.1.0",
-    "axios": "^0.25.0",
+    "axios": "^1.6.7",
     "axios-retry": "^3.2.4",
     "consola": "^2.15.3",
     "defu": "^5.0.1"
   },
   "devDependencies": {
     "@babel/core": "latest",
+    "@babel/eslint-parser": "^7.23.9",
     "@babel/preset-env": "latest",
     "@nuxtjs/eslint-config": "latest",
-    "babel-eslint": "latest",
     "babel-jest": "latest",
     "codecov": "latest",
     "eslint": "latest",
-    "jest": "latest",
+    "jest": "^29.2.2",
+    "jsdom": "^24.0.0",
     "nuxt-edge": "latest",
     "standard-version": "latest"
   }
