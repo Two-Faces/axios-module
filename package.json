@@ -1,5 +1,5 @@
 {
-  "name": "@nuxtjs-two-faces/axios",
+  "name": "nuxtjs-two-faces-axios",
   "version": "6.0.0",
   "description": "Secure and easy Axios integration with Nuxt.js",
   "repository": "nuxt-community/axios-module",
